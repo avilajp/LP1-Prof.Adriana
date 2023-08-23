@@ -8,10 +8,10 @@ public class Valinverso {
 		
         System.out.println("O valor de A é:"+a+" O valor de B é:"+b);
 
-        invert = b;
-        b = a;
+        invert = a;
         a = b;
+        b = invert;
         
-        System.out.println("Os valores invertidos são respectivamente, A:"+invert+" B:"+b);
+        System.out.println("Os valores invertidos são respectivamente, A:"+a+" B:"+b);
 	}
 }
