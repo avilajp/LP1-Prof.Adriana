@@ -26,6 +26,6 @@ public class Exercicio90 {
             }
         }
 
-        System.out.println("A quantidade de vezes em que o número digitado aparece no array é: " + quantidadeOcorrencias);
+        System.out.println("A quantidade de vezes em que o mesmo número digitado aparece no array é: " + quantidadeOcorrencias);
     }
 }

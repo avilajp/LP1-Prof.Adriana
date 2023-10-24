@@ -2,7 +2,16 @@ package Atividade_classes;
 
 public class Teste {
     public static void main(String[] args) {
-
+        carro();
+        bicicleta();
+        tec();
+        comp();
+        casas();
+        livros();
+        cliente();
+        bancos();
+        predios();
+        produtos();
     }
     static void carro(){
         Carro c1 = new Carro("Vermelho","Chevette","H10S3M");
@@ -22,7 +31,7 @@ public class Teste {
 
         System.out.println("\nA Cor da bike: " + b1.getCor() + "\nO número de aros: " + b1.getAro() + "\nTrue ou false: " + b1.isCesta());
     }
-    
+
     static void tec(){
         Teclado t1 = new Teclado("Azul",444,true);
         t1.setCor("Vermelho");
@@ -84,12 +93,5 @@ public class Teste {
 
         prod2.exibirDetalhesProd();
     }
-
-
-
-
-
-
-
 }
 

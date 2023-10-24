@@ -6,7 +6,8 @@ public class Exercicio91 {
     public static void main(String[] args) {
         Exercicio91();
     }
-    public static void Exercicio91(){
+
+    public static void Exercicio91() {
         Scanner scanner = new Scanner(System.in);
         int[] numeros = new int[5];
 
@@ -24,6 +25,12 @@ public class Exercicio91 {
                     System.out.println("O número: " + numeros[i] + " está repetido na posição: " + (i + 1) + " e na posição: " + (j + 1));
                 }
             }
+        }
+
+        if (quantidadeRepeticoes == 0) {
+            System.out.println("Nenhum número se repete no array.");
+        } else {
+            System.out.println("Foram encontradas " + quantidadeRepeticoes + " repetições no array.");
         }
     }
 }
